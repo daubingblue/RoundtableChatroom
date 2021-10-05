@@ -265,7 +265,7 @@ h2 {
 
 /* how does it work */
 #how-does-it-work {
-	margin-top: 5rem;
+	margin-top: 3.5rem;
 	margin-left: 10%;
 	margin-right: 10%;
 	z-index: -1;
@@ -306,7 +306,7 @@ h2 {
 #join-our-next-event-box {
 	display: grid;
 	grid-template-columns: 0.6fr 1fr 1fr;
-	grid-template-rows: 1fr 0.5fr;
+	grid-template-rows: 1fr 0.4fr;
 	grid-template-areas: 
 		"box1 box2 box3"
 		"box4 box4 box4";
@@ -351,7 +351,7 @@ h2 {
 	grid-area: box4;
 	text-align: center;
 	padding-top: 0.5rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1.5rem;
 }
 
 #sign-up-button {
@@ -361,7 +361,7 @@ h2 {
 	background-image: linear-gradient(to right, #009FDD, #62B771);
 	color: white;
 	font-size: 1.2rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.2rem;
 }
 
 #sign-up-button:hover {
@@ -389,8 +389,13 @@ h2 {
 		"box4";
 }
 	
+	#join-our-next-event-box4 {
+		margin-bottom: 1rem;
+	}
+	
 	#or-learn-more-about-it-first {
-		font-size: 0.8rem;
+		font-size: 1rem;
+		margin: 0 0.5rem;
 	}
 }
 
@@ -408,7 +413,7 @@ h2 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-column-gap: 2.5rem;
-	grid-row-gap: 3rem;
+	grid-row-gap: 4rem;
 	margin-top: 1.5rem;
 }
 
